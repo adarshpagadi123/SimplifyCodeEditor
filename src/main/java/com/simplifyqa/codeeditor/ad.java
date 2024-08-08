@@ -25,4 +25,11 @@ public class ad {
         int c=a-b;
         System.out.println(c);
     }
+    @SyncAction(uniqueId = "MyProject-Sample-113",groupName = "Click",objectTemplate = @ObjectTemplate(name = TechnologyType.WEB,description = "This action belongs to WEB"))
+    public void mul (){
+        int a=10;
+        int b=10;
+        int c=a*b;
+        System.out.println(c);
+    }
 }
